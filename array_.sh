@@ -11,6 +11,8 @@ echo "Length of an array is ${#myarr[*]}"
 echo "values from index 2 to 3 ${myarr[*]:2:2}"
 
 #updae array
+#
+echo "Size of array is ${myarr[@]}"
 
 myarr+=(6 7 8)
 echo "value of new array ${myarr[*]}"
